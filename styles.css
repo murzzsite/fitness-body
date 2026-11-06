@@ -152,6 +152,22 @@ h2{font-size:clamp(34px,5vw,84px);max-width:19ch}
 .steps b{display:block;font-size:clamp(26px,3vw,50px);font-weight:800;letter-spacing:-.03em;line-height:1.02}
 .steps p{margin-top:12px;max-width:46ch}
 
+/* reviews */
+.rv{display:grid;grid-template-columns:repeat(12,1fr);column-gap:clamp(16px,2vw,32px);align-items:start}
+.rv__head{grid-column:1/6;position:sticky;top:110px}
+.rv__res{margin-top:clamp(32px,4vw,64px);display:grid;gap:clamp(20px,2.4vw,36px)}
+.rv__res dt{font-size:clamp(56px,7vw,124px);font-weight:900;letter-spacing:-.045em;line-height:.95;color:var(--blue);font-variant-numeric:tabular-nums}
+.rv__res dt b{font-weight:900}
+.rv__res dd{margin-top:8px;max-width:30ch;font-size:16px}
+.rv__note{margin-top:28px;max-width:36ch;font-size:14px;line-height:1.4}
+.rv__list{grid-column:7/13;display:grid;gap:10px}
+.rv__item{background:var(--bg2);padding:clamp(22px,2.6vw,40px);transition:background .3s,transform .5s var(--ease)}
+.rv__item:nth-child(even){background:#fff}
+.rv__item:hover{transform:translateX(-8px)}
+.rv__item blockquote{margin:0}
+.rv__item p{font-size:clamp(17px,1.35vw,21px);line-height:1.5;max-width:56ch}
+.rv__item figcaption{margin-top:18px;font-weight:800;font-size:18px;color:var(--blue)}
+
 /* faq */
 .faq{display:grid;grid-template-columns:repeat(12,1fr);column-gap:clamp(16px,2vw,32px);align-items:start}
 .faq h2{grid-column:1/6;position:sticky;top:110px}
@@ -211,7 +227,9 @@ details[open]>div{animation:fadeUp .5s var(--ease)}
 }
 @media (max-width:900px){
   h2{max-width:none}
-  .hero__grid,.scene__grid,.fmt,.proc,.faq,.cta{display:block}
+  .hero__grid,.scene__grid,.fmt,.proc,.faq,.cta,.rv{display:block}
+  .rv__head{position:static;margin-bottom:32px}
+  .rv__res{grid-template-columns:1fr 1fr}
   .hero__h1{font-size:10.4vw}
   .hero__photo{margin-top:36px;margin-left:0}
   .bib{left:12px;bottom:12px}

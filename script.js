@@ -71,7 +71,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/QPM3S2LB4K'
     lead1: { name: 'Ведение до результата, 1 месяц', price: 15000, day: '500 ₽ в день с личным контролем', list: [
       'Питание и тренировки в одной системе', 'Дополнительные мероприятия, которые ускоряют результат', 'Контроль результатов', 'Анкета, анализы и план с первого дня'] },
     lead3: { name: 'Ведение до результата, 3 месяца', price: 40000, day: '444 ₽ в день, на 5 000 ₽ выгоднее помесячной оплаты', list: [
-      'Всё из ведения на месяц', 'Три месяца работы над одной целью', 'Контроль результатов по ходу пути', 'Экономия 5 000 ₽'] }
+      'Тот же формат ведения, что и на месяц', 'Питание и тренировки в одной системе', 'Дополнительные мероприятия и контроль результатов', 'Три месяца работы над одной целью'] }
   };
   const resName = $('#resName'), resPrice = $('#resPrice'), resDay = $('#resDay'), resList = $('#resList');
   const priceState = { v: 12000 };
@@ -209,7 +209,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/QPM3S2LB4K'
   // paragraph / block entrances
   $$('[data-r]').forEach(el => gsap.from(el, { y: 32, opacity: 0, duration: 1, ease: 'power3.out',
     scrollTrigger: { trigger: el, start: 'top 90%', once: true } }));
-  ScrollTrigger.batch('.goal, .opt, details, .contacts a, .fld', {
+  ScrollTrigger.batch('.goal, .opt, details, .contacts a, .fld, .rv__item', {
     start: 'top 92%', once: true,
     onEnter: els => gsap.from(els, { y: 44, opacity: 0, duration: 0.9, stagger: 0.09, ease: 'power3.out', overwrite: true })
   });
