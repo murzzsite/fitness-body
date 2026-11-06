@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Александр Щедрин — онлайн фитнес-тренер: питание, тренировки, ведение до результата</title>
+<meta name="description" content="Онлайн фитнес-тренер Александр Щедрин, призёр чемпионатов по пляжному бодибилдингу. Корректировка питания, программа тренировок и личное сопровождение до результата. Санкт-Петербург, Москва, Краснодар, Ростов-на-Дону и вся Россия.">
+<meta property="og:title" content="Александр Щедрин — красивое тело под ключ">
+<meta property="og:description" content="Питание, тренировки и ведение до результата онлайн. Первая консультация бесплатно.">
+<meta property="og:image" content="img/stage-smoke.jpg">
+<meta name="theme-color" content="#ECEFF5">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="logo" href="#top" aria-label="Александр Щедрин — на главную">
+      <img src="img/logo.png" alt="" width="44" height="44">
+      <span class="logo__t">Щедрин<span class="logo__s"> · фитнес-тренер</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <a href="#about">О себе</a>
+      <a href="#help">С чем помогаю</a>
+      <a href="#format">Формат и цена</a>
+      <a href="#process">Как работаем</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn--sm" href="#zayavka" data-magnet><span>Консультация</span></a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <h1 class="hero__h1" data-split>Красивое тело под ключ</h1>
+      <p class="hero__sub" data-hero-fade>Онлайн-тренер Александр Щедрин ведёт от первой консультации до результата: питание, тренировки и личный контроль. Призёр чемпионатов по пляжному бодибилдингу.</p>
+      <div class="hero__act" data-hero-fade>
+        <a class="btn" href="#zayavka" data-magnet><span>Бесплатная консультация</span></a>
+        <a class="btn btn--ghost" href="#format"><span>Форматы и цены</span></a>
+      </div>
+      <dl class="stats" data-hero-fade>
+        <div><dt><b class="count" data-to="15">15</b> лет</dt><dd>в спорте и фитнесе</dd></div>
+        <div><dt><b class="count" data-to="100">100</b>+</dt><dd>учеников выстроили привычки питания</dd></div>
+        <div><dt><b class="count" data-to="100">100</b>+</dt><dd>положительных отзывов</dd></div>
+      </dl>
+    </div>
+    <figure class="hero__photo" id="heroPhoto">
+      <div class="hero__frame">
+        <img src="img/stage-smoke.jpg" alt="Александр Щедрин на сцене чемпионата по пляжному бодибилдингу" width="1680" height="1850">
+      </div>
+      <figcaption class="bib" aria-label="Стартовый номер 113"><span class="bib__n" id="bibN">113</span><span class="bib__t">стартовый номер</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ABOUT: pinned stage -->
+<section class="scene" id="about" aria-labelledby="aboutH">
+  <div class="scene__stick">
+    <div class="wrap scene__grid">
+      <div class="scene__pics" aria-hidden="false">
+        <img class="scene__img is-on" src="img/stage-full.jpg" alt="Александр Щедрин, двойной бицепс на сцене, номер 113" width="1374" height="2568">
+        <img class="scene__img" src="img/podium.jpg" alt="Александр Щедрин на сцене кубка по бодибилдингу" width="861" height="693" loading="lazy">
+        <img class="scene__img" src="img/medals.jpg" alt="Александр Щедрин с тремя медалями чемпионата D'Athletics" width="870" height="690" loading="lazy">
+      </div>
+      <div class="scene__copy">
+        <h2 id="aboutH" data-split>Сам выхожу на сцену. Знаю, как это работает</h2>
+        <p class="scene__lead" data-r>Здравствуйте! Я Александр Щедрин, сертифицированный фитнес-тренер. Помогаю дойти до цели: от общего оздоровления и снижения веса до подготовки к соревнованиям. В основе научно обоснованные методики, индивидуальный подход и безопасность тренировок.</p>
+        <ol class="medals" id="medals">
+          <li class="is-on"><b>Призёр чемпионата Санкт-Петербурга</b><span>по пляжному бодибилдингу</span></li>
+          <li><b>Призёр кубка «Yana Smith»</b><span>по пляжному бодибилдингу</span></li>
+          <li><b>Чемпион чемпионата «D’Athletics»</b><span>по пляжному бодибилдингу</span></li>
+        </ol>
+        <div class="scene__bar" aria-hidden="true"><i id="sceneBar"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HELP -->
+<section class="sec" id="help" aria-labelledby="helpH">
+  <div class="wrap">
+    <h2 id="helpH" data-split>Какую задачу решаем</h2>
+    <ul class="goals" id="goals">
+      <li class="goal is-open">
+        <button class="goal__b" aria-expanded="true"><span class="goal__t">Похудеть и убрать живот и бока</span><span class="goal__i" aria-hidden="true"></span></button>
+        <div class="goal__p"><div><p>Вместе разработаем индивидуальный план тренировок и образа жизни, который позволит достичь цели и сохранить результат на годы.</p><a class="goal__a" href="#format" data-pick="food+train">Подобрать формат</a></div></div>
+      </li>
+      <li class="goal">
+        <button class="goal__b" aria-expanded="false"><span class="goal__t">Набрать мышечную массу</span><span class="goal__i" aria-hidden="true"></span></button>
+        <div class="goal__p"><div><p>Программа с учётом ваших особенностей: максимальный рост мышц при минимальном наборе жировой прослойки.</p><a class="goal__a" href="#format" data-pick="food+train">Подобрать формат</a></div></div>
+      </li>
+      <li class="goal">
+        <button class="goal__b" aria-expanded="false"><span class="goal__t">Подготовиться к соревнованиям</span><span class="goal__i" aria-hidden="true"></span></button>
+        <div class="goal__p"><div><p>Выстроим стратегию подготовки: от проработки мышечных групп до контроля рельефа и позирования, чтобы вы показали лучший результат.</p><a class="goal__a" href="#format" data-pick="lead1">Подобрать формат</a></div></div>
+      </li>
+      <li class="goal">
+        <button class="goal__b" aria-expanded="false"><span class="goal__t">Вернуть форму после родов</span><span class="goal__i" aria-hidden="true"></span></button>
+        <div class="goal__p"><div><p>Безопасная и эффективная программа с учётом послеродового восстановления, чтобы вернуть уверенность в себе.</p><a class="goal__a" href="#format" data-pick="train">Подобрать формат</a></div></div>
+      </li>
+      <li class="goal">
+        <button class="goal__b" aria-expanded="false"><span class="goal__t">Избавиться от хронической усталости</span><span class="goal__i" aria-hidden="true"></span></button>
+        <div class="goal__p"><div><p>Выстроим режим тренировок и восстановления, который сбалансирует ресурсы организма и вернёт бодрость на каждый день.</p><a class="goal__a" href="#format" data-pick="food+train">Подобрать формат</a></div></div>
+      </li>
+      <li class="goal">
+        <button class="goal__b" aria-expanded="false"><span class="goal__t">Справиться с инсулинорезистентностью</span><span class="goal__i" aria-hidden="true"></span></button>
+        <div class="goal__p"><div><p>Научно обоснованные тренировки и принципы здорового образа жизни, которые поддерживают естественную регуляцию глюкозы. Программа строится по вашим анализам.</p><a class="goal__a" href="#format" data-pick="lead1">Подобрать формат</a></div></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- CITIES -->
+<section class="cities" aria-labelledby="citiesH">
+  <div class="wrap"><h2 id="citiesH" data-split>Онлайн, из любого города</h2></div>
+  <div class="ticker" id="ticker" aria-hidden="true">
+    <div class="ticker__row">
+      <span>Санкт-Петербург</span><span>Москва</span><span>Московская область</span><span>Краснодар</span><span>Ростов-на-Дону</span><span>Вся Россия</span>
+    </div>
+  </div>
+</section>
+
+<!-- FORMAT / PRICE: the live thing -->
+<section class="sec sec--format" id="format" aria-labelledby="formatH">
+  <div class="wrap">
+    <h2 id="formatH" data-split>Выберите формат и увидите цену</h2>
+    <div class="fmt">
+      <fieldset class="fmt__opts" id="fmtOpts">
+        <legend class="sr">Формат работы</legend>
+        <label class="opt"><input type="radio" name="fmt" value="food"><span class="opt__b"><span class="opt__t">Корректировка питания</span><span class="opt__p">7 500 ₽</span></span></label>
+        <label class="opt"><input type="radio" name="fmt" value="train"><span class="opt__b"><span class="opt__t">Программа тренировок</span><span class="opt__p">7 500 ₽</span></span></label>
+        <label class="opt"><input type="radio" name="fmt" value="food+train" checked><span class="opt__b"><span class="opt__t">Питание + тренировки</span><span class="opt__p">12 000 ₽</span></span></label>
+        <label class="opt"><input type="radio" name="fmt" value="lead1"><span class="opt__b"><span class="opt__t">Ведение до результата, 1 месяц</span><span class="opt__p">15 000 ₽</span></span></label>
+        <label class="opt"><input type="radio" name="fmt" value="lead3"><span class="opt__b"><span class="opt__t">Ведение до результата, 3 месяца</span><span class="opt__p">40 000 ₽</span></span></label>
+      </fieldset>
+      <aside class="res" aria-live="polite">
+        <p class="res__k" id="resName">Питание + тренировки</p>
+        <p class="res__price"><span id="resPrice">12 000</span> ₽</p>
+        <p class="res__day" id="resDay">Первая консультация бесплатно</p>
+        <ul class="res__list" id="resList"></ul>
+        <a class="btn btn--w" href="#zayavka" id="resCta" data-magnet><span>Хочу этот формат</span></a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="sec" id="process" aria-labelledby="procH">
+  <div class="wrap proc">
+    <div class="proc__head">
+      <h2 id="procH" data-split>Пять шагов до результата</h2>
+      <p data-r>Нет времени? Программа расписана на неделю под ваш распорядок дня. Анкета нужна именно для этого.</p>
+    </div>
+    <div class="proc__body">
+      <div class="proc__bar" aria-hidden="true"><i id="procBar"></i></div>
+      <ol class="steps" id="steps">
+        <li><b>Бесплатная консультация</b><p>Разбираем вашу форму, пожелания и цели, определяем реалистичные сроки.</p></li>
+        <li><b>Анкета</b><p>Режим дня и статистические данные, чтобы план легко встал в вашу неделю.</p></li>
+        <li><b>Анализы крови</b><p>Сначала оцениваем состояние здоровья, чтобы тренировки были не только эффективными, но и безопасными.</p></li>
+        <li><b>Питание и тренировки</b><p>Баланс белков, жиров и углеводов, суточная калорийность и программа с учётом уровня подготовки, возраста и здоровья.</p></li>
+        <li><b>Ведение до цели</b><p>Дополнительные мероприятия и контроль результатов, пока вы не дойдёте до задуманного.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" id="faq" aria-labelledby="faqH">
+  <div class="wrap faq">
+    <h2 id="faqH" data-split>Спрашивают чаще всего</h2>
+    <div class="faq__list">
+      <details open><summary>Дорого. За что я плачу?</summary><div><p>Вход от 7 500 ₽: питание или программа тренировок. Ведение на месяц стоит 15 000 ₽, это 500 ₽ в день с личным контролем. На три месяца 40 000 ₽: на 5 000 ₽ дешевле, чем платить помесячно. Консультация, на которой вы узнаете свой путь и сроки, бесплатная.</p></div></details>
+      <details><summary>У меня нет времени</summary><div><p>Поэтому тренер и нужен. Программа расписана на неделю с учётом вашего распорядка дня, а вам не нужно самим считать калории и придумывать тренировки.</p></div></details>
+      <details><summary>Как проходит работа онлайн?</summary><div><p>Консультация, анкета, питание, тренировки и контроль результата идут дистанционно. Вы получаете расписанный план и рекомендации по выполнению упражнений, а при ведении ещё и обратную связь по результатам.</p></div></details>
+      <details><summary>Зачем сдавать анализы крови?</summary><div><p>Перед нагрузкой важно оценить здоровье. Так тренировки получаются эффективными и безопасными именно для вас.</p></div></details>
+      <details><summary>Работаете только с жителями каких-то городов?</summary><div><p>Нет, всё онлайн. Мои клиенты из Санкт-Петербурга, Москвы и области, Краснодара, Ростова-на-Дону и других городов.</p></div></details>
+      <details><summary>Подойдёт после родов или при усталости, инсулинорезистентности?</summary><div><p>Да, для этих задач есть отдельные программы. Строим их с учётом ваших анализов и состояния, а если нужен врач, скажу об этом прямо.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- FORM -->
+<section class="sec sec--cta" id="zayavka" aria-labelledby="ctaH">
+  <div class="wrap cta">
+    <div class="cta__l">
+      <h2 id="ctaH" data-split>Запишитесь на консультацию</h2>
+      <p data-r>Она бесплатная. Оставьте телефон, и я свяжусь с вами в ближайшее время обсудить цель, сроки и подходящий формат.</p>
+      <ul class="contacts" data-r>
+        <li><a href="https://t.me/aleksandr_fitnesonlain" target="_blank" rel="noopener">Telegram</a></li>
+        <li><a href="https://wa.me/79014651435" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://vk.ru/id858523854" target="_blank" rel="noopener">ВКонтакте</a></li>
+      </ul>
+    </div>
+    <form class="form" id="leadForm" novalidate>
+      <label class="fld"><span>Ваше имя</span><input type="text" name="name" autocomplete="name" required></label>
+      <label class="fld"><span>Телефон</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+7" required></label>
+      <label class="fld"><span>Цель и комментарий</span><textarea name="comment" id="fComment" rows="3" placeholder="Например: минус 10 кг к лету"></textarea></label>
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <button class="btn btn--w btn--full" type="submit" data-magnet><span>Отправить заявку</span></button>
+      <p class="form__ok" id="formOk" hidden></p>
+      <p class="form__note">Нажимая кнопку, вы соглашаетесь с <a href="privacy.html">политикой конфиденциальности</a>.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot__name" id="footName" aria-hidden="true">Щедрин</p>
+    <div class="foot__row">
+      <p>Александр Щедрин, онлайн фитнес-тренер. Питание, тренировки и ведение до результата.</p>
+      <p><a href="privacy.html">Политика конфиденциальности</a><br>© <span id="year">2026</span></p>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/79014651435" target="_blank" rel="noopener" aria-label="Написать в WhatsApp"><span>Написать</span></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
